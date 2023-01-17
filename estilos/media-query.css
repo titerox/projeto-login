@@ -30,15 +30,21 @@ Paleta de cores
         float: left;
         width: 30%;
         height: 100%;
+        position: relative;
+        background-size: cover;
     }
     section#login > div#formulario{
         float: right;
         width: 70%;
     }
+
+    div#formulario > p{
+        font-size: 1.1em;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 992px) {
+
     body{
         background-image: linear-gradient(to bottom, #CAC3E6, #1A0D4D);
     }
@@ -47,13 +53,23 @@ Paleta de cores
         width: 990px;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
+        background-position: center center;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+       
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.2em;
     }
 }
