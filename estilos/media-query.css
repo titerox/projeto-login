@@ -25,6 +25,7 @@ Paleta de cores
 
     section#login{
         width: 80vw; 
+        height: 330px;
     }
     section#login > div#imagem{
         float: left;
@@ -41,6 +42,13 @@ Paleta de cores
     div#formulario > p{
         font-size: 1.1em;
     }
+
+    form > input[type=submit]{
+        width: 45%;
+    }
+    form > a.botao{
+        width: 45%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -51,6 +59,8 @@ Paleta de cores
 
     section#login{
         width: 990px;
+        height: 400px;
+        padding-left: 10px;
     }
     section#login > div#imagem{
         float: right;
@@ -71,5 +81,12 @@ Paleta de cores
 
     div#formulario > p{
         font-size: 1.2em;
+    }
+
+    form > input[type=submit]{
+        width: 50%;
+    }
+    form > a.botao{
+        width: 50%;
     }
 }
